@@ -5,6 +5,7 @@ import SobreMi from './pages/SobreMi';
 import Habilidades from './pages/Habilidades';
 import Proyectos from './pages/Proyectos';
 import Contacto from './pages/Contacto';
+import NotFound from './pages/NotFound';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="habilidades" element={<Habilidades />} />
         <Route path="proyectos" element={<Proyectos />} />
         <Route path="contacto" element={<Contacto />} />
+        <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
   );
