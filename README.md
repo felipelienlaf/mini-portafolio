@@ -1,7 +1,7 @@
 # Mini Portafolio - React + Vite
 
 Evaluación N°3 - Desarrollo de Frontend  
-**Instituto Tecnológico UC Temuco**  
+**Universidad Catolica de Temuco**  
 **Estudiante:** Felipe Lienlaf  
 
 ---
