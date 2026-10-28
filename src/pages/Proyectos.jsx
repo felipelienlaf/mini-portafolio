@@ -5,7 +5,7 @@ export default function Proyectos() {
     {
       id: 1,
       titulo: 'Mini Portafolio React',
-      descripcion: 'Aplicación SPA desarrollada con React, React Router y Vite',
+      descripcion: 'Aplicación SPA desarrollada con React, React Router y Vite en evaluación académica.',
       enlace: 'https://github.com/felipelienlaf/mini-portafolio',
       imagen: `${import.meta.env.BASE_URL}proyecto1.png`
     },
@@ -19,9 +19,10 @@ export default function Proyectos() {
     {
       id: 3,
       titulo: 'Modelación y Cálculo Básico (EID)',
-      descripcion: 'Proyecto de calculadora de limites y trigonometricos'
+      descripcion: 'Proyecto de calculadora de límites y trigonométricos.',
       enlace: 'https://github.com/felipelienlaf/mini-portafolio',
-      imagen: `${import.meta.env.BASE_URL}eidcalculo.jpg` 
+      imagen: `${import.meta.env.BASE_URL}eidcalculo.jpg`
+    }
   ];
 
   return (
