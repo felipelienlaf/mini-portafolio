@@ -1,10 +1,27 @@
-export default function TarjetaProyecto({ titulo, descripcion, enlace }) {
+export default function TarjetaProyecto({ titulo, descripcion, enlace, imagen }) {
   return (
     <article className="card">
+      {/* Muestra la imagen si existe */}
+      {imagen && (
+        <img 
+          src={imagen} 
+          alt={titulo} 
+          style={{
+            width: '100%',
+            height: '140px',
+            objectFit: 'cover',
+            borderRadius: '10px',
+            marginBottom: '1rem',
+            border: '1px solid var(--border-color)'
+          }}
+        />
+      )}
+
       <div>
         <h3 style={{ marginBottom: '0.5rem', color: '#38bdf8' }}>{titulo}</h3>
         <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>{descripcion}</p>
       </div>
+
       <div style={{ marginTop: '1.25rem' }}>
         {enlace ? (
           <a

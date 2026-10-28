@@ -7,7 +7,7 @@ export default function Proyectos() {
       titulo: 'Mini Portafolio React',
       descripcion: 'Aplicación SPA desarrollada con React, React Router y Vite en evaluación académica.',
       enlace: 'https://github.com/felipelienlaf/mini-portafolio',
-      imagen: `${import.meta.env.BASE_URL}proyecto1.png`
+      imagen: `${import.meta.env.BASE_URL}proyecto1.jpg` // Se corrige .png por .jpg
     },
     {
       id: 2,
