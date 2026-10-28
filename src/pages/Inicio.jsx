@@ -24,8 +24,9 @@ export default function Inicio() {
           </Link>
         </div>
 
+        {/* Volvemos a foto-perfil.jpg */}
         <img 
-          src={`${import.meta.env.BASE_URL}foto-perfil2.jpeg`} 
+          src={`${import.meta.env.BASE_URL}foto-perfil.jpg`} 
           alt="Presentación Felipe Lienlaf" 
           style={{
             flex: '0 1 280px',
