@@ -10,7 +10,6 @@ export default function Inicio() {
 
   return (
     <div className="inicio-container">
-      {/* Hero / Presentación */}
       <section style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '2rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
         <div style={{ flex: '1 1 300px' }}>
           <h1>Hola, soy Felipe Lienlaf</h1>
@@ -25,9 +24,8 @@ export default function Inicio() {
           </Link>
         </div>
 
-        {/* Imagen de presentación desde public/ */}
         <img 
-          src={`${import.meta.env.BASE_URL}foto-perfil.jpg`} 
+          src={`${import.meta.env.BASE_URL}foto-perfil2.jpeg`} 
           alt="Presentación Felipe Lienlaf" 
           style={{
             flex: '0 1 280px',
@@ -40,7 +38,6 @@ export default function Inicio() {
         />
       </section>
 
-      {/* Grid de Pilares */}
       <div className="grid-cards">
         {pilares.map((pilar, index) => (
           <div key={index} className="card" style={{ textAlign: 'center', padding: '1.5rem' }}>

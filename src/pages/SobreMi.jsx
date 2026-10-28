@@ -5,7 +5,7 @@ export default function SobreMi() {
       
       <div style={{ display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap', marginBottom: '2.5rem' }}>
         <img 
-          src={`${import.meta.env.BASE_URL}foto-perfil.jpg`} 
+          src={`${import.meta.env.BASE_URL}foto-perfil2.jpeg`} 
           alt="Felipe Lienlaf" 
           style={{
             width: '130px',
@@ -33,9 +33,9 @@ export default function SobreMi() {
       <div>
         <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '0.5rem' }}>¿Qué me interesa?</h3>
         <ul style={{ paddingLeft: '1.25rem', color: 'var(--text-muted)', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-          <li>Desarrollo web Frontend y aplicaciones interactivas.</li>
-          <li>Aprender nuevas herramientas del ecosistema de React y JavaScript.</li>
-          <li>Construir proyectos de software con código limpio y buena experiencia de usuario.</li>
+          <li>Desarrollo web y tecnologías frontend.</li>
+          <li>Aprender nuevas herramientas y frameworks.</li>
+          <li>Construir proyectos que generen un impacto real.</li>
         </ul>
       </div>
     </section>

@@ -1,7 +1,6 @@
 export default function TarjetaProyecto({ titulo, descripcion, enlace, imagen }) {
   return (
     <article className="card">
-      {/* Muestra la imagen si existe */}
       {imagen && (
         <img 
           src={imagen} 
