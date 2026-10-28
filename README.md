@@ -1,16 +1,23 @@
-# React + Vite
+# Mini Portafolio - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Evaluación N°3 - Desarrollo de Frontend  
+**Instituto Tecnológico UC Temuco**  
+**Estudiante:** Felipe Lienlaf  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📋 Descripción del Proyecto
+Aplicación web tipo SPA (Single Page Application) desarrollada con React y React Router DOM. Presenta un portafolio personal interactivo que incluye navegación entre secciones, listado dinámico de habilidades y proyectos, y un formulario de contacto con validación de estados.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Requisitos e Instalación
 
-## Expanding the ESLint configuration
+### Requisitos previos
+* Node.js v20.19+ o v22.12+
+* Git
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Pasos de instalación
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/felipelienlaf/mini-portafolio.git](https://github.com/felipelienlaf/mini-portafolio.git)
